@@ -1,9 +1,43 @@
 .bg-primary {
   background-color: $primary !important;
+
+  .text-primary {
+    color: $primary !important;
+  }
+
+  a {
+    color: #bd5d38;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: #824027;
+  }
 }
 
-.text-primary {
-  color: $primary !important;
+.bg-info2 {
+  .text-primary {
+    color: $cyan !important;
+  }
+
+  .social-icons a {
+    color: $white !important;
+
+    &:hover {
+      background-color: $cyan;
+    }
+  }
+
+  a {
+    color: $cyan;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: $cyan;
+  }
 }
 
 a {
