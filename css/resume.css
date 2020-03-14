@@ -206,3 +206,18 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.logo-box {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.75;
+}

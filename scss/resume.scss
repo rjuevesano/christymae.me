@@ -4,3 +4,22 @@
 @import "nav.scss";
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
+
+.logo-box {
+  margin: 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+
+    text-align: center;
+    padding: 20px;
+    opacity: 0.75;
+  }
+}
